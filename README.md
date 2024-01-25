@@ -45,7 +45,7 @@ We provide the hyper-parameters used in our experiments for your references.
 For example:
 
 ```
-python run_MF.py --model ppacmf --dataset gowalla --gamma 256 --beta -128
+python run_MF.py --model ppacmf --dataset gowalla --gamma 512 --beta -1024
 ```
 
 If you use our datasets or codes, please cite our paper.
