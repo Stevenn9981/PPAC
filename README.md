@@ -32,6 +32,12 @@ python run_LightGCN.py --model ppaclg --dataset {dataset} --train
 
 ${dataset} can be chosen from ['ml-1M', 'gowalla', 'yelp2018'].
 
+For example:
+
+```
+python run_MF.py --model ppacmf --dataset ml-1M --train
+```
+
 After training, if you want to use your pre-trained model to conduct inference, use the below script (remove `--train` flag).
 
 ```
