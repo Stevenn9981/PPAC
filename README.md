@@ -7,9 +7,13 @@ Paper: Debiasing Recommendation with Popular Popularity (WWW'24)
 ### Running environment
 
 ```
-python == 3.8.8
-pytorch == 1.13.1+cu116
-dgl == 1.1.3+cu116
+conda create -n ppac python=3.8.8
+conda activate ppac
+
+pip install torch==1.13.1 --index-url https://download.pytorch.org/whl/cu116
+pip install gym==0.23.0 tensorflow-probability==0.20.1 matplotlib scikit-learn
+pip install  dgl==1.1.3 -f https://data.dgl.ai/wheels/cu116/repo.html
+
 ```
 
 ### Guidelines to run our codes
