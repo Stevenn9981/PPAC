@@ -12,8 +12,7 @@ conda activate ppac
 
 pip install torch==1.13.1 --index-url https://download.pytorch.org/whl/cu116
 pip install gym==0.23.0 tensorflow-probability==0.20.1 matplotlib scikit-learn
-pip install  dgl==1.1.3 -f https://data.dgl.ai/wheels/cu116/repo.html
-
+pip install dgl==1.1.3 -f https://data.dgl.ai/wheels/cu116/repo.html
 ```
 
 ### Guidelines to run our codes
