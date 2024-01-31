@@ -43,7 +43,7 @@ python run_LightGCN.py --model ppaclg --dataset {dataset} --gamma {gamma} --beta
 
 We provide the hyper-parameters used in our experiments for your references.
 
-|          | ML-1M    |         | Gowalla  |         | Yelp2018 |         |
+|          | ml-1M    |         | Gowalla  |         | Yelp2018 |         |
 |----------|----------|---------|----------|---------|----------|---------|
 |          | $\gamma$ | $\beta$ | $\gamma$ | $\beta$ | $\gamma$ | $\beta$ |
 | BPRMF    | 64       | -32     | 512      | -1024   | 256      | -512    |
@@ -56,7 +56,7 @@ We provide the hyper-parameters used in our experiments for your references.
 For example:
 
 ```
-python run_MF.py --model ppacmf --dataset gowalla --gamma 512 --beta -1024
+python run_MF.py --model ppacmf --dataset ml-1M --gamma 64 --beta -32
 ```
 
 If you use our datasets or codes, please cite our paper.
