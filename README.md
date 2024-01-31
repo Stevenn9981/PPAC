@@ -4,6 +4,14 @@ This is the source code of PPAC.
 
 Paper: Debiasing Recommendation with Popular Popularity (WWW'24)
 
+### Running environment
+
+```
+python == 3.8.8
+pytorch == 1.13.1+cu116
+dgl == 1.1.3+cu116
+```
+
 ### Guidelines to run our codes
 
 If you want to train PPAC, when you use mf/ncf as base model, please use the following scripts:
