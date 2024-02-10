@@ -65,6 +65,10 @@ For example:
 python run_MF.py --model ppacmf --dataset ml-1M --gamma 64 --beta -32
 ```
 
+### Tips to tune $\gamma$ and $\beta$
+Since $\gamma$ and $\beta$ are only used during inference, we can set both values to zero during training. Once the results on validation sets converge and the training process is completed, we begin tuning the values of $\gamma$ and $\beta$ on the validation sets. Since the model learnable parameters are fixed, we only need to conduct inference, which is very fast (only several seconds). 
+
+### Citation
 If you use our datasets or codes, please cite our paper.
 ```
 @inproceedings{PPAC,
